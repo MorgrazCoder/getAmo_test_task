@@ -1,0 +1,1 @@
+# getAmo_test_task
