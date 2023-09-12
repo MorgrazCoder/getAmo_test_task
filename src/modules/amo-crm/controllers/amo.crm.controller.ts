@@ -9,4 +9,9 @@ export class AmoCrmController {
     getAuthCode(@Query("code") authCode: string) {
         return this.amoCrmService.authorize(authCode);
     }
+
+    @Get("/check-connection")
+    checkConnection() {
+        return "ok";
+    }
 }
